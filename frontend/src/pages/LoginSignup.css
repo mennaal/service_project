@@ -1,0 +1,77 @@
+/* LoginSignup.css */
+.login-signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #faebd7; /* Beige background color */
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #cdb891;
+  color: white;
+}
+
+button:hover {
+  background-color: #c3b091;
+}
+
+.toggle-button {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #cdb891;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  color: white; /* Hover color changed to white */
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+

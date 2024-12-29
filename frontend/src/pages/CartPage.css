@@ -1,0 +1,116 @@
+
+/* CartPage.css */
+CartPage.css
+
+
+.cart-page-container {
+    padding: 20px;
+    text-align: center;
+    background-color: faebd7;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .cart-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-control button {
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .quantity-control button:hover {
+    background-color: #ccc;
+  }
+  
+  .quantity-control span {
+    font-size: 1.2rem;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .continue-shopping {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .continue-shopping:hover {
+    background-color: #45a049;
+  }
+  
+  /* For better mobile responsiveness */
+  @media (max-width: 768px) {
+    .cart-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .cart-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .quantity-control button {
+      padding: 5px 8px;
+    }
+
+    /* CartPage.css */
+
+.back-to-products {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .back-to-products:hover {
+    background-color: #45a049;
+  }
+  
+  }
+  

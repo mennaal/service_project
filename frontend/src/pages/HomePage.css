@@ -1,0 +1,43 @@
+/* HomePage.css */
+.homepage-container {
+    text-align: center;
+    background-color: #faebd7; /* Apply Antique White background color */
+    height: 100vh; /* Ensure the container takes up the full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically and horizontally */
+    flex-direction: column;
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Remove extra margin */
+  }
+  
+  .homepage-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 600px; /* Limit the max width */
+    height: 70vh; /* Adjust the height to 70% of the viewport */
+    object-fit: cover; /* Ensure the image fills the container without distortion */
+    border-radius: 10px; /* Optional rounded corners */
+  }
+  
+  h2 {
+    font-size: 3rem;
+    color: white; /* Make text white */
+    font-family: 'Times New Roman', Times, serif; /* Apply Times New Roman font */
+  }
+  
+  
+  .go-to-login-signup {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #cdb891;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .go-to-login-signup:hover {
+    background-color: #c3b091;
+  }
+  
